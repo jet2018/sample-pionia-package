@@ -1,8 +1,7 @@
 <?php
 
-namespace Jet\SamplePackage;
+namespace Pionia\SamplePackage;
 
-use AllowDynamicProperties;
 use Pionia\Base\PioniaApplication;
 
 class SamplePackage

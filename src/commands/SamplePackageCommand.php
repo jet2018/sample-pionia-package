@@ -1,8 +1,8 @@
 <?php
 
-namespace Jet\SamplePackage\commands;
+namespace Pionia\SamplePackage\commands;
 
-use Jet\SamplePackage\SamplePackage;
+use Pionia\SamplePackage\SamplePackage;
 use Pionia\Console\BaseCommand;
 use Symfony\Component\Console\Input\InputArgument;
 

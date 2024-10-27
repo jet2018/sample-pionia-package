@@ -1,9 +1,9 @@
 <?php
 
-namespace Jet\SamplePackage;
+namespace Pionia\SamplePackage;
 
-use Jet\SamplePackage\commands\SamplePackageCommand;
-use Jet\SamplePackage\middlewares\SamplePackageMiddleware;
+use Pionia\SamplePackage\commands\SamplePackageCommand;
+use Pionia\SamplePackage\middlewares\SamplePackageMiddleware;
 use Pionia\Base\Provider\AppProvider;
 use Pionia\Middlewares\MiddlewareChain;
 

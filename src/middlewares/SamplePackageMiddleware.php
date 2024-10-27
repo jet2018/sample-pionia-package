@@ -1,8 +1,8 @@
 <?php
 
-namespace Jet\SamplePackage\middlewares;
+namespace Pionia\SamplePackage\middlewares;
 
-use Jet\SamplePackage\SamplePackage;
+use Pionia\SamplePackage\SamplePackage;
 use Pionia\Http\Request\Request;
 use Pionia\Http\Response\Response;
 use Pionia\Middlewares\Middleware;
