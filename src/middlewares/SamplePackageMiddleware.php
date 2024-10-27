@@ -23,4 +23,9 @@ class SamplePackageMiddleware extends Middleware
         logger()->info("Logged on Response:- Environment is $env ");
         return $response;
     }
+
+    public function beforeResponse()
+    {
+        logger()->info("We are running this before entering the the onResponse hook");
+    }
 }
