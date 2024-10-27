@@ -20,7 +20,7 @@ class SamplePackageMiddleware extends Middleware
     public function onResponse(Response $response): Response
     {
         $env = app()->getSilently(SamplePackage::class)->environment();
-        logger()->info("Logged on Request:- Environment is $env ");
+        logger()->info("Logged on Response:- Environment is $env ");
         return $response;
     }
 }
