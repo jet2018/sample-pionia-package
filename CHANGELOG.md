@@ -1,0 +1,9 @@
+-end-no-edit
+-end-no-edit
+-removed the bug with getArguments method
+-logging to console the value after hashing
+-removing the bug with the help paramenter in command
+-pointing the package name to Pionia too
+-resolved all the namespaces to point to Pionia
+-removed all the verbose files
+-testing the new app provider

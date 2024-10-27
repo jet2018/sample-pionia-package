@@ -17,5 +17,8 @@
     "minimum-stability": "dev",
     "require": {
         "pionia/pionia-core": "2.x-dev"
+    },
+    "scripts": {
+        "changelog": "git log --pretty='-%s' > CHANGELOG.md"
     }
 }
