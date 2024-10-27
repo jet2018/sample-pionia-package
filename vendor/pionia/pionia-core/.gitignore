@@ -1,0 +1,14 @@
+vendor
+.idea
+.DM_Store
+composer.lock
+src/Core/.DS_Store
+build
+.phpunit.result.cache
+
+**.log
+
+example
+docs
+
+

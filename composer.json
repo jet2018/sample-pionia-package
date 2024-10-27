@@ -1,0 +1,21 @@
+{
+    "name": "jet/sample-package",
+    "description": "Simple pionia Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jet\\SamplePackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jet2018",
+            "email": "ezrajet9@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "pionia/pionia-core": "2.x-dev"
+    }
+}
