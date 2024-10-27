@@ -13,7 +13,7 @@ class SamplePackageCommand extends BaseCommand
 
     protected string $help = 'Sample command description, just to test out a sample package targeting Pionia';
 
-    public function getArguments(): bool|array|string|null
+    public function getArguments(): array
     {
         return [
             ['str', InputArgument::REQUIRED, 'Str to hash'],
