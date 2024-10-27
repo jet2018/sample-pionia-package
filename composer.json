@@ -1,5 +1,5 @@
 {
-    "name": "jet/sample-package",
+    "name": "pionia/sample-package",
     "description": "Simple pionia Package",
     "type": "library",
     "license": "MIT",
