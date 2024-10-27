@@ -13,19 +13,19 @@ class SamplePackageCommand extends BaseCommand
 
     protected string $help = 'Sample command description, just to test out a sample package targeting Pionia';
 
-    public function argument(string $key = null): bool|array|string|null
+    public function getArguments(): bool|array|string|null
     {
         return [
-            ['str_to_hash', InputArgument::REQUIRED, 'Str to hash'],
+            ['str', InputArgument::REQUIRED, 'Str to hash'],
         ];
     }
 
     public function handle()
     {
-        $strToHash = $this->argument('str_to_hash');
+        $strToHash = $this->argument('str');
         $hashed = $this->getApp()->getSilently(SamplePackage::class)->hash($strToHash);
-        $this->info();
-
+        $this->warn("hash of $strToHash is  $hashed");
+        return self::SUCCESS;
     }
 
 }
