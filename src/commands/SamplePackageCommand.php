@@ -11,6 +11,8 @@ class SamplePackageCommand extends BaseCommand
     protected string $description = 'Sample command description';
     protected string $name='app:sample-package';
 
+    protected string $help = 'Sample command description, just to test out a sample package targeting Pionia';
+
     public function argument(string $key = null): bool|array|string|null
     {
         return [
